@@ -1,8 +1,9 @@
 package q567_checkInclusion
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_checkInclusion(t *testing.T) {
