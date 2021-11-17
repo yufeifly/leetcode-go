@@ -1,8 +1,9 @@
 package q128_longestConsecutive
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_longestConsecutive(t *testing.T) {

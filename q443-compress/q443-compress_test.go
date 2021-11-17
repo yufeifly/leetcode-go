@@ -1,9 +1,9 @@
 package q443_compress
 
 import (
-	"fmt"
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_compress(t *testing.T) {
@@ -24,7 +24,6 @@ func Test_compress(t *testing.T) {
 		Convey("e3", func() {
 			arr := []byte{'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'}
 			So(compress(arr), ShouldEqual, 4)
-			fmt.Printf("%s", string(arr))
 			So(arr[:4], ShouldResemble, []byte{'a', 'b', '1', '2'})
 		})
 	})
@@ -35,5 +34,4 @@ func Test_compress(t *testing.T) {
 			So(int2ByteSlice(12), ShouldResemble, []byte{'1', '2'})
 		})
 	})
-
 }

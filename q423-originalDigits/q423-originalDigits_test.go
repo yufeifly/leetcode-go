@@ -1,8 +1,9 @@
 package q423_originalDigits
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_originalDigits(t *testing.T) {

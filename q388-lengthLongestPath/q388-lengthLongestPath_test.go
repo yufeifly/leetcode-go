@@ -1,8 +1,9 @@
 package q388_lengthLongestPath
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_lengthLongestPath(t *testing.T) {

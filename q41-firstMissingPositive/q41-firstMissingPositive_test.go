@@ -1,8 +1,9 @@
 package q41_firstMissingPositive
 
 import (
-	. "github.com/smartystreets/goconvey/convey"
 	"testing"
+
+	. "github.com/smartystreets/goconvey/convey"
 )
 
 func Test_firstMissingPositive(t *testing.T) {
